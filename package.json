@@ -1,0 +1,10 @@
+{
+  "name": "hw_lesson_1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "howler": "^2.2.1",
+    "luxon": "^1.26.0"
+  }
+}
