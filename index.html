@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>APPS</title>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+   <script type="module" src="main.js"></script>
+</head>
+
+<body>
+   <div class="container">
+      <ul class="nav nav-tabs">
+         <li class="nav-item">
+            <a class="nav-link active" href="#">Калькулятор дат</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="#">Таймер</a>
+         </li>
+      </ul>
+      <form id="datecalc">
+         <h3>Калькулятор дат</h3>
+         <label>
+            <strong>Первая Дата:</strong>
+            <input type="date" name="firstDate">
+         </label>
+         <label>
+            <strong>Вторая Дата:</strong>
+            <input type="date" name="secondDate">
+         </label>
+         <button type="submit">Рассчитать промежуток</button>
+         <p id="datecalc__result"></p>
+      </form>
+
+      <form id="appTimer">
+         <h3>Таймер</h3>
+         <p id="time">0</p>
+         <button id="button-start">start</button>
+         <button id="button-stop" disabled>stop</button>
+      </form>
+
+      <div class="apps">${apps}</div>
+
+   </div>
+</body>
+
+</html>
